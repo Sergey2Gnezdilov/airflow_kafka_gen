@@ -1,0 +1,10 @@
+defaults:
+    owner: S.Gnezdilov
+    s3__var_id: s3_config_boto3 
+    s3_file_format: parquet
+    click_house__var_id: clickhouse.com
+    resources: half_8x_mem
+
+target-user_analytics_dummy:
+    kafka__var_id: user_analytics_dummy
+    kafka__topic: dummy
